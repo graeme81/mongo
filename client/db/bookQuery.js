@@ -1,7 +1,7 @@
 var MongoClient = require('mongodb').MongoClient;
 
 var BookQuery = function(){
-  this.url = 'mongodb://localhost:27017/ratings_site';
+  this.url = 'mongodb://localhost:27017/book_site';
 };
 
 BookQuery.prototype = {
